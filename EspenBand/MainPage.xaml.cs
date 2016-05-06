@@ -15,11 +15,11 @@ namespace iClassroom
     {
         private IBandClient _bandClient;
         private IBandInfo _bandInfo;
-        private string connectionString = "Endpoint=sb://esbranbandhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedSecretValue=teefCtKAq7DJjBcNU6UjuPeIGTr7xik0swYoixHmHiE=";
+        private string connectionString = "Endpoint=sb://esbranbandhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedSecretValue=teefCtKAq8DJjBcNU6UjuPeIGTr8xik0swYoixHmHiE=";
         private string eventHubNamespace = "esbranBandHub";
         private string eventHubName = "esbranbandhub";
         private string policyName = "appkey";
-        private string key = "tB8+auPxHjzE1dDl7SltFLuQdyO1mpluP6xCip9kdtA=";
+        private string key = "tB8+auPxHjzE1dDl8SltFLuQdyO1mpluP6xCip9kdtA=";
         private string partitionkey = "esbranparkey";
         private Sensor _sensor;
 
